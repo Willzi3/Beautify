@@ -1,14 +1,14 @@
 <template>
-    <router-link :to="{name: 'products', params: {id: hair.id}}">
+    <router-link :to="{name: 'products', params: {id: product.id}}">
         <div class="card">
-           <img :src="hair.img">
-           <h1>{{ hair.name}}</h1>
+           <img :src="product.img">
+           <h1>{{ product.name}}</h1>
         </div>
     </router-link>
 </template>
 <script>
 export default {
-    props: ['hair'],
+    props: ['product'],
 }
 </script>
 <style lang="">

@@ -1,290 +1,301 @@
 {
-    "hairs":[
-        {
-            "id": "1",
-            "img": "https://postimg.cc/21dBxhqf",
-            "name": "Hair gel",
-            "price": "R70"
-        },
-        {
-            "id": "2",
-            "img": "https://postimg.cc/V0bJ0Cyp",
-            "name": "Hair Shampoo", 
-            "price":"R50"
-
-        },
-        {
-            "id": "3",
-            "img": "https://postimg.cc/0KmNy1Dq",
-            "name": "Hair Conditioner", 
-            "price":"R70"
-
-        },
-        {
-            "id": "4",
-            "img": "https://postimg.cc/9D2Dz0Lg",
-            "name": "Male Hair Spike Wax", 
-            "price":"R100"
-
-        },
-        {
-            "id": "5",
-            "img": "https://postimg.cc/CdZBQWZ7",
-            "name": "Leave-in conditioner", 
-            "price":"R50"
-
-        },
-        {
-            "id": "6",
-            "img": "https://postimg.cc/SXNj75FW",
-            "name": "Curl defining cream", 
-            "price":"R100"
-
-        },
-        {
-            "id": "7",
-            "img": "https://postimg.cc/fJcL4ZMc",
-            "name": "Castor oil infused hair therapy", 
-            "price":"R100"
-
-        },
-        {
-            "id": "8",
-            "img": "https://postimg.cc/ygDd2ZNx",
-            "name": "Detangling hair therapy", 
-            "price":"R50"
-
-        },
-        {
-            "id": "9",
-            "img": "https://postimg.cc/S2Hs4xXr",
-            "name": "Hair Growth", 
-            "price":"R100"
-
-        },
-        {
-            "id": "10",
-            "img": "https://postimg.cc/F75Rn1XF",
-            "name": "Hair Silicon", 
-            "price":"R80"
-
-        },
-        {
-            "id": "11",
-            "img": "https://postimg.cc/yWSxPc5r",
-            "name": "Semi permanent hair colour burgandy -red", 
-            "price":"R150"
-
-        },
-        {
-            "id": "12",
-            "img": "https://postimg.cc/9480xpCs",
-            "name": "Semi permanent hair colour burgandy -black", 
-            "price":"R50"
-
-        },
-        {
-            "id": "13",
-            "img": "https://postimg.cc/YvtSMVSJ",
-            "name": "Hold spray", 
-            "price":"R50"
-
-        },
-        {
-            "id": "14",
-            "img": "https://postimg.cc/SJCXyCfz",
-            "name": "Male hair house for waves", 
-            "price":"R70"
-
-        },
-        {
-            "id": "15",
-            "img": "https://postimg.cc/R6Y30TYw",
-            "name": "Curling Sponge", 
-            "price":"R40"
-
-        },
-        {
-            "id": "16",
-            "img": "https://postimg.cc/Z9VBGmF7",
-            "name": "Durag", 
-            "price":"R40"
-
-        },
-        {
-            "id": "17",
-            "img": "https://postimg.cc/8F1fXcWf",
-            "name": "Beard Balm", 
-            "price":"R50"
-
-        },
-        {
-            "id": "18",
-            "img": "https://postimg.cc/Jt9DVPZL",
-            "name": "Mans firm hold gel", 
-            "price":"R70"
-
-        },
-        {
-            "id": "19",
-            "img": "https://postimg.cc/JD0DmFp1",
-            "name": "Moustache and beard oil", 
-            "price":"R90"
-
-        },
-        {
-            "id": "20",
-            "img": "https://postimg.cc/FYx7Svqr",
-            "name": "Beard wash", 
-            "price":"R100"
-
-        }
-
-        
-    ],
-
-    "nails":[
-        {
-            "id": "1",
-            "img": "https://postimg.cc/JGrnWv0S",
-            "name": " 5pc nail art brush",
-            "price": "R70"
-        },
-        {
-            "id": "2",
-            "img": "https://postimg.cc/kVbMcdYR",
-            "name": "10pc nail polish set", 
-            "price":"R100"
-
-        },
-        {
-            "id": "3",
-            "img": "https://postimg.cc/qhHJDZWb",
-            "name": "5pc", 
-            "price":"R50"
-
-        },
-        {
-            "id": "4",
-            "img": "https://postimg.cc/sMts1Nfj",
-            "name": "48W Led UV nail lamp", 
-            "price":"R170"
-
-        },
-        {
-            "id": "5",
-            "img": "https://postimg.cc/3dfKQwPD",
-            "name": "Keratin nail restover", 
-            "price":"R50"
-
-        },
-        {
-            "id": "6",
-            "img": "https://postimg.cc/ZW9JbSSs",
-            "name": "5pc gel nail polish", 
-            "price":"R150"
-
-        },
-        {
-            "id": "7",
-            "img": "https://postimg.cc/XGWWkByt",
-            "name": "Cuticle pusher tools", 
-            "price":"R200"
-
-        },
-        {
-            "id": "8",
-            "img": "https://postimg.cc/R3K9tLqc",
-            "name": "Acetone ", 
-            "price":"R75"
-
-        },
-        {
-            "id": "9",
-            "img": "https://postimg.cc/DJcTjfr0",
-            "name": "Gel top and base coat", 
-            "price":"R100"
-
-        },
-        {
-            "id": "10",
-            "img": "https://postimg.cc/PCcrYqyk",
-            "name": "Polygel kit 10pcs", 
-            "price":"R350"
-
-        },
-        {
-            "id": "11",
-            "img": "https://postimg.cc/vxHdpRhz",
-            "name": "Clear polish", 
-            "price":"R50"
-
-        },
-        {
-            "id": "12",
-            "img": "https://postimg.cc/7JxxwJHS",
-            "name": "Hair primer", 
-            "price":"R50"
-
-        },
-        {
-            "id": "13",
-            "img": "https://postimg.cc/7bVHX999",
-            "name": "10 pcs nail decals", 
-            "price":"R40"
-
-        },
-        {
-            "id": "14",
-            "img": "https://postimg.cc/w13j1NhV",
-            "name": "Matte top coat", 
-            "price":"R50"
-
-        },
-        {
-            "id": "15",
-            "img": "https://postimg.cc/xqYjKhvq",
-            "name": "Cuticle oil", 
-            "price":"R40"
-
-        },
-        {
-            "id": "16",
-            "img": "https://postimg.cc/tY4Xc6mj",
-            "name": "Nail glitters 10pcs", 
-            "price":"R100"
-
-        },
-        {
-            "id": "17",
-            "img": "https://postimg.cc/XGKVRkbV",
-            "name": " 24 pcs press-on nails", 
-            "price":"R50"
-
-        },
-        {
-            "id": "18",
-            "img": "https://postimg.cc/nMc43RZc",
-            "name": "Acrylic powder", 
-            "price":"R150"
-
-        },
-        {
-            "id": "19",
-            "img": "https://postimg.cc/6Tjdgr5V",
-            "name": "Monomer", 
-            "price":"R100"
-
-        },
-        {
-            "id": "20",
-            "img": "https://postimg.cc/zHBT3BpR",
-            "name": "Nail tips 100pcs", 
-            "price":"R150"
-
-        }
-
-        
+    "Products": [
+            {
+                "id": 1,
+                "img": "https://postimg.cc/JGrnWv0S",
+                "name": " 5pc nail art brush",
+                "price": 70,
+                "catergory":"Nails"
+            },
+            {
+                "id": 2,
+                "img": "https://postimg.cc/kVbMcdYR",
+                "name": "10pc nail polish set", 
+                "price":100,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 3,
+                "img": "https://postimg.cc/qhHJDZWb",
+                "name": "5pc", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 4,
+                "img": "https://postimg.cc/sMts1Nfj",
+                "name": "48W Led UV nail lamp", 
+                "price":170,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 5,
+                "img": "https://postimg.cc/3dfKQwPD",
+                "name": "Keratin nail restover", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 6,
+                "img": "https://postimg.cc/ZW9JbSSs",
+                "name": "5pc gel nail polish", 
+                "price":150,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 7,
+                "img": "https://postimg.cc/XGWWkByt",
+                "name": "Cuticle pusher tools", 
+                "price":200,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 8,
+                "img": "https://postimg.cc/R3K9tLqc",
+                "name": "Acetone ", 
+                "price":75,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 9,
+                "img": "https://postimg.cc/DJcTjfr0",
+                "name": "Gel top and base coat", 
+                "price":100,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 10,
+                "img": "https://postimg.cc/PCcrYqyk",
+                "name": "Polygel kit 10pcs", 
+                "price":350,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 11,
+                "img": "https://postimg.cc/vxHdpRhz",
+                "name": "Clear polish", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 12,
+                "img": "https://postimg.cc/7JxxwJHS",
+                "name": "Hair primer", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 13,
+                "img": "https://postimg.cc/7bVHX999",
+                "name": "10 pcs nail decals", 
+                "price":40,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 14,
+                "img": "https://postimg.cc/w13j1NhV",
+                "name": "Matte top coat", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 15,
+                "img": "https://postimg.cc/xqYjKhvq",
+                "name": "Cuticle oil", 
+                "price":40,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 16,
+                "img": "https://postimg.cc/tY4Xc6mj",
+                "name": "Nail glitters 10pcs", 
+                "price":100,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 17,
+                "img": "https://postimg.cc/XGKVRkbV",
+                "name": " 24 pcs press-on nails", 
+                "price":50,
+                "catergory":"Nails"    
+            },
+            {
+                "id": 18,
+                "img": "https://postimg.cc/nMc43RZc",
+                "name": "Acrylic powder", 
+                "price":150,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 19,
+                "img": "https://postimg.cc/6Tjdgr5V",
+                "name": "Monomer", 
+                "price":100,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 20,
+                "img": "https://postimg.cc/zHBT3BpR",
+                "name": "Nail tips 100pcs", 
+                "price":150,
+                "catergory":"Nails"
+    
+            },
+            {
+                "id": 21,
+                "img": "https://postimg.cc/21dBxhqf",
+                "name": "Hair gel",
+                "price": 70,
+                "catergory":"Hair"
+            },
+            {
+                "id": 22,
+                "img": "https://postimg.cc/V0bJ0Cyp",
+                "name": "Hair Shampoo", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 23,
+                "img": "https://postimg.cc/0KmNy1Dq",
+                "name": "Hair Conditioner", 
+                "price":70,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 24,
+                "img": "https://postimg.cc/9D2Dz0Lg",
+                "name": "Male Hair Spike Wax", 
+                "price":100,
+                "catergory":"Hair"
+    
+            },
+            {
+                "id": 25,
+                "img": "https://postimg.cc/CdZBQWZ7",
+                "name": "Leave-in conditioner", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 26,
+                "img": "https://postimg.cc/SXNj75FW",
+                "name": "Curl defining cream", 
+                "price":100,
+                "catergory":"Hair"
+    
+            },
+            {
+                "id": 27,
+                "img": "https://postimg.cc/fJcL4ZMc",
+                "name": "Castor oil infused hair therapy", 
+                "price":100,
+                "catergory":"Hair"
+    
+            },
+            {
+                "id": 28,
+                "img": "https://postimg.cc/ygDd2ZNx",
+                "name": "Detangling hair therapy", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 29,
+                "img": "https://postimg.cc/S2Hs4xXr",
+                "name": "Hair Growth", 
+                "price":100,
+                "catergory":"Hair"
+    
+            },
+            {
+                "id": 30,
+                "img": "https://postimg.cc/F75Rn1XF",
+                "name": "Hair Silicon", 
+                "price":80,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 31,
+                "img": "https://postimg.cc/yWSxPc5r",
+                "name": "Semi permanent hair colour burgandy -red", 
+                "price":150,
+                "catergory":"Hair"
+    
+            },
+            {
+                "id": 32,
+                "img": "https://postimg.cc/9480xpCs",
+                "name": "Semi permanent hair colour burgandy -black", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 33,
+                "img": "https://postimg.cc/YvtSMVSJ",
+                "name": "Hold spray", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 34,
+                "img": "https://postimg.cc/SJCXyCfz",
+                "name": "Male hair house for waves", 
+                "price":70,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 35,
+                "img": "https://postimg.cc/R6Y30TYw",
+                "name": "Curling Sponge", 
+                "price":40,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 36,
+                "img": "https://postimg.cc/Z9VBGmF7",
+                "name": "Durag", 
+                "price":40,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 37,
+                "img": "https://postimg.cc/8F1fXcWf",
+                "name": "Beard Balm", 
+                "price":50,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 38,
+                "img": "https://postimg.cc/Jt9DVPZL",
+                "name": "Mans firm hold gel", 
+                "price":70,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 39,
+                "img": "https://postimg.cc/JD0DmFp1",
+                "name": "Moustache and beard oil", 
+                "price":90,
+                "catergory":"Hair"    
+            },
+            {
+                "id": 40,
+                "img": "https://postimg.cc/FYx7Svqr",
+                "name": "Beard wash", 
+                "price":100,
+                "catergory":"Hair"
+    
+            }
     ]
 }
 
