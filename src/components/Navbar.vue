@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav_bar">
+  <nav class="nav_bar" id="nav_bar">
     <router-link class="nav-links" to="/">Home</router-link> |
     <router-link class="nav-links" to="/about">About</router-link> |
     <router-link class="nav-links" to="/contact">Contact</router-link> |
@@ -39,3 +39,11 @@ nav a.router-link-exact-active {
   color: var(--hover-highlight) !important;
 }
 </style>
+<!-- <script>
+function showNav()
+{
+let navBar = document.getElementById("nav_bar");
+window.addEventListener("scroll", navBar(){navBar.setAttribute("opacity", "0");})
+
+}
+</script> -->

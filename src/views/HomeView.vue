@@ -1,4 +1,14 @@
 <template>
+  <div class="row" style="height: 100vh">
+    <div
+      class="col-12"
+      style="height: 50%; background-color: black; z-index: 20"
+    ></div>
+    <div
+      class="col-12"
+      style="height: 50%; background-color: black; z-index: 20"
+    ></div>
+  </div>
   <div class="home">
     <div class="home-img">
       <img src="../../images/oliver-johnson-yH0dth2yEQE-unsplash.jpg" alt="" />
@@ -74,6 +84,14 @@ body {
   background-color: black;
   font-family: "Source Sans Pro", sans-serif;
 }
-
+.col-12:hover {
+  opacity: 0;
+  translateY: -100;
+  transition: 3s;
+}
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
 </style>
+<!-- <script>
+window.addEventListener("scroll", () => {let cover = document.getElementsByClassName('col-12');
+})
+</script> -->
