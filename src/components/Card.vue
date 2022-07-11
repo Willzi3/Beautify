@@ -12,8 +12,5 @@ export default {
 }
 </script>
 <style lang="">
-    /* .card img{
-        width: 100px;
-        height: 100px;
-    } */
+    
 </style>

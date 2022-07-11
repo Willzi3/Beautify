@@ -40,5 +40,18 @@ a {
         border: 1px solid black;
         width: 300px;
         height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+       
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 1.5rem;
     }
 </style>
