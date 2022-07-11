@@ -29,7 +29,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap: 20px;
 }
 
 a {
@@ -37,14 +37,18 @@ a {
     color: black;
 }
     .card{
-        border: 1px solid black;
         width: 300px;
         height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 10px;
-       
+       box-shadow: 5px 5px 5px 5px;
+    }
+    .card:hover {
+        background: black;
+        color: white;
+        box-shadow: 5px 5px 5px 5px lightslategray;
     }
     img{
         width: 200px;
@@ -53,5 +57,6 @@ a {
     }
     h1{
         font-size: 1.5rem;
+        font-weight: bold;
     }
 </style>
