@@ -296,6 +296,16 @@
                 "catergory":"Hair"
     
             }
+    ],
+    "Users": [
+        {
+            "id": 1,
+            "full_Name":"Riley Reid",
+            "email": "riley@gmail.com",
+            "password":"password",
+            "role":"customer",
+            "image": "",
+        }
     ]
 }
 
