@@ -59,4 +59,26 @@ a {
         font-size: 1.5rem;
         font-weight: bold;
     }
+    .productDetails{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 500px;
+    border: 1px solid black;
+    }
+
+    .prod .container {
+    height: 70vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    }
+    .btn{
+        width: 500px;
+        border: 1px solid black;
+    }
 </style>

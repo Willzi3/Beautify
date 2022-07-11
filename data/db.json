@@ -3,14 +3,14 @@
             {
                 "id": 1,
                 "img": "https://i.postimg.cc/HnsKVLxz/1.jpg",
-                "name": " 5pc nail art brush",
+                "name": " 5 piece nail art brush",
                 "price": 70,
                 "catergory":"Nails"
             },
             {
                 "id": 2,
                 "img": "https://i.postimg.cc/L5CWfMgp/2.jpg",
-                "name": "10pc nail polish set", 
+                "name": "10 piece nail polish set", 
                 "price":100,
                 "catergory":"Nails"
     
@@ -18,7 +18,7 @@
             {
                 "id": 3,
                 "img": "https://i.postimg.cc/0N0cDqhB/3.png",
-                "name": "5pc", 
+                "name": "5 piece", 
                 "price":50,
                 "catergory":"Nails"    
             },
@@ -40,7 +40,7 @@
             {
                 "id": 6,
                 "img": "https://i.postimg.cc/wxf4wg3K/6.png",
-                "name": "5pc gel nail polish", 
+                "name": "5 piece gel nail polish", 
                 "price":150,
                 "catergory":"Nails"
     
@@ -71,7 +71,7 @@
             {
                 "id": 10,
                 "img": "https://i.postimg.cc/GmkQnC3m/10.png",
-                "name": "Polygel kit 10pcs", 
+                "name": "Polygel kit 10 pieces", 
                 "price":350,
                 "catergory":"Nails"
     
@@ -93,7 +93,7 @@
             {
                 "id": 13,
                 "img": "https://i.postimg.cc/1zQv8z7F/13.png",
-                "name": "10 pcs nail decals", 
+                "name": "10  pieces nail decals", 
                 "price":40,
                 "catergory":"Nails"    
             },
@@ -114,7 +114,7 @@
             {
                 "id": 16,
                 "img": "https://i.postimg.cc/fLHCqfz7/16.png",
-                "name": "Nail glitters 10pcs", 
+                "name": "Nail glitters 10 pieces", 
                 "price":100,
                 "catergory":"Nails"
     
@@ -122,7 +122,7 @@
             {
                 "id": 17,
                 "img": "https://i.postimg.cc/g0mKYTrq/17.png",
-                "name": " 24 pcs press-on nails", 
+                "name": " 24  pieces press-on nails", 
                 "price":50,
                 "catergory":"Nails"    
             },
@@ -145,7 +145,7 @@
             {
                 "id": 20,
                 "img": "https://i.postimg.cc/PfRKmyFT/20.jpg",
-                "name": "Nail tips 100pcs", 
+                "name": "Nail tips 100 pieces", 
                 "price":150,
                 "catergory":"Nails"
     
@@ -290,7 +290,7 @@
             },
             {
                 "id": 40,
-                "img": "https://i.postimg.cc/Fz7mdpC7/20.jpg",
+                "img": "https://i.postimg.cc/Fz7mdpc7/20.jpg",
                 "name": "Beard wash", 
                 "price":100,
                 "catergory":"Hair"
