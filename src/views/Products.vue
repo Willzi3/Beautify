@@ -37,9 +37,9 @@ a {
   background: none;
 }
 .card:hover {
-  /* background: black;
+  background: black;
   color: white;
-  box-shadow: 5px 5px 5px 5px lightslategray; */
+  box-shadow: 5px 5px 5px 5px lightslategray;
 }
 img {
   width: 200px;

@@ -296,8 +296,126 @@
                 "catergory":"Hair"
     
             }
+    ],
+    "Users": [
+        {
+            "id": 1,
+            "Fullname": "Riley Raid",
+            "email": "riley@gmail.com",
+            "password":"password",
+            "role":"Admin",
+            "call":" 073 938 4990"
+        },
+        {
+            "id": 2,
+            "Fullname": "Delmar Monteiro",
+            "email": "delmar@gmail.com",
+            "password":"password",
+            "role":"service provider",
+            "call":" 081 036 3946"
+        },
+        {
+            "id": 3,
+            "Fullname": "Nadiy Chehivskiy",
+            "email": "Nadiy@gmail.com",
+            "password":"password",
+            "role":"service provider",
+            "call":" 074 001 5628"
+        },
+        {
+            "id": 4,
+            "Fullname": "Elina Husabø",
+            "email": "ElinaHus@gmail.com",
+            "password":"password",
+            "role":"service provider",
+            "call":" 083 778 83910"
+        },
+        {
+            "id": 5,
+            "Fullname": "Kevin Kirkhus",
+            "email": "KevinKs@gmail.com",
+            "password":"password",
+            "role":"service provider",
+            "call":" 073 838 7790"
+        },
+        {
+            "id": 6,
+            "Fullname": "Blanca Longoria",
+            "email": "KevinKs@gmail.com",
+            "password":"password",
+            "role":"service provider"
+        },
+        {
+            "id": 7,
+            "Fullname": "Alfredo Kelley",
+            "email": "AlfredoKell@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 8,
+            "Fullname": "Abel Pedroza",
+            "email": "AbelP@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 9,
+            "Fullname": "Manuel Teixeira",
+            "email": "Manuel@gmail.com",
+            "password":"password",
+            "role":"customer"
+        },
+        {
+            "id": 10,
+            "Fullname": "Reema Shah",
+            "email": "Reemashah@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 11,
+            "Fullname": "Emma Abraham",
+            "email": "EmmaA@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 12,
+            "Fullname": "Caroline Mortensen",
+            "email": "Caroline@gmail.com",
+            "password":"password",
+            "role":"Customer"
+            
+        },
+        {
+            "id": 13,
+            "Fullname": "Nuria Sanz",
+            "email": "Nuria@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 14,
+            "Fullname": "Anujna Das",
+            "email": "Anujna@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        },
+        {
+            "id": 6,
+            "Fullname":"Marcela Costa",
+            "email": "Marcela@gmail.com",
+            "password":"password",
+            "role":"Customer"
+        }
+        
+        
+        
+        
     ]
 }
+
 
 
 

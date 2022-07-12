@@ -75,7 +75,7 @@ body {
   padding-bottom: 100vh;
 }
 .nav_bar {
-  z-index: -20;
+  z-index: 20;
   position: relative;
   background-color: crimson;
   opacity: 0.5;

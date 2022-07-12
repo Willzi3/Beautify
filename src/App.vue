@@ -6,6 +6,9 @@
 <script>  
 import Navbar from "./components/Navbar.vue";
 
+import Users from "./components/UsersCard.vue";
+
+
 export default {
   components: {
     Navbar,
