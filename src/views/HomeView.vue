@@ -13,6 +13,12 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  }
+  },
+  // mounted({
+  //   fetch("")
+  //   .then(res => res.json())
+  //    .then((data) => (this.hair =data))
+  //       .catch(err => console.log(err.message))
+  // })
 }
 </script>
