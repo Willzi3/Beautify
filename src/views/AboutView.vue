@@ -1,15 +1,10 @@
 <template>
   <div class="about">
     <div class="container">
-      <div class="part">
-        <h2 class="head">About Curl Me Crazy</h2>
-      </div>
-
-      <h2 class="special">Complete</h2>
-      <h1 class="cus">Customer Satisfaction</h1>
+      <h2 class="title">Complete Customer Section</h2>
       <p class="first">
-        From the moment they opened the doors to the first Curl Me Crazy Salon
-        in 2018, the four partners focused everything they did on one goal. It
+        From the moment they opened the doors to the firstCurl Me Crazy Salon in
+        2018, the four partners focused everything they did on one goal. It
         meant more than expertly cutting, styling and colouring hair. They
         needed to make sure clients were comfortable, got the latest precision
         cuts and styles, and learned how to care for their hair.
@@ -23,7 +18,7 @@
       </p>
     </div>
     <div class="about-info">
-      <div><img src="../assets/ambience.jpg" alt="image" /></div>
+      <div><img src="../assets/ambiennccee.jpg" alt="image" /></div>
       <div>
         <h1 class="cus">The<br /></h1>
         <h2>Ambience</h2>
@@ -34,7 +29,7 @@
       </div>
     </div>
     <div class="about-info2">
-      <div><img src="../assets/barber.jpg" alt="image" /></div>
+      <div><img src="../assets/connections.jpg" alt="image" /></div>
       <div>
         <h1 class="cus">The<br /></h1>
         <h2>Connections</h2>
@@ -46,7 +41,7 @@
       </div>
     </div>
     <div class="about-info">
-      <div><img src="../assets/color.jpg" alt="image" /></div>
+      <div><img src="../assets/style.jpg" alt="image" /></div>
       <div>
         <h1 class="cus">The<br /></h1>
         <h2>Style</h2>
@@ -60,7 +55,7 @@
       </div>
     </div>
     <div class="about-info2">
-      <div><img src="../assets/products.jpg" alt="image" /></div>
+      <div><img src="../assets/enlightment.jpg" alt="image" /></div>
       <div>
         <h1 class="cus">The<br /></h1>
         <h2>Enlightenment</h2>
@@ -70,6 +65,17 @@
           researched, tested and stocked a wide range of top quality products
           and helped each client understand why and how to use them to maintain
           their style between visits.
+        </p>
+      </div>
+    </div>
+    <div class="about-info2">
+      <div><img src="../assets/.jpg" alt="image" /></div>
+      <div>
+        <h1 class="cus">The<br /></h1>
+        <h2>Perfect Manicure</h2>
+        <p>
+   Apply the best nail art with all your heart. Our proffesional
+          manicurist can help you spice up your nail game.
         </p>
       </div>
     </div>
@@ -114,8 +120,18 @@
 export default {};
 </script>
 <style>
+:root {
+  --secondary-text-colour: #0b1108;
+  --primary-text-colour: #c6c0b7;
+  --hover-highlight: crimson;
+  --main-font: "Source Sans Pro", sans-serif;
+}
 .about {
   min-height: 100vh;
+  background-color: black;
+}
+.title {
+  color: white;
 }
 .part {
   min-height: 50vh;
@@ -127,22 +143,30 @@ export default {};
 .about img {
   width: 760px;
   height: 350px;
+  object-fit: cover;
 }
 .about-info {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
 }
 .about-info2 {
   display: flex;
   flex-direction: row-reverse;
 }
 .special {
-  font-family: "Splash", cursive;
+  font-family: var(--main-font);
+  color: var(--primary-text-colour);
 }
 h1 {
-  font-family: "Splash", cursive;
+  font-family: var(--main-font);
+  color: var(--primary-text-colour);
 }
+
 .head {
-  font-family: "Splash", cursive;
+  font-family: var(--main-font);
+  color: var(--primary-text-colour);
+  margin-top: 50px;
 }
 .cus {
   margin-top: 50px;
