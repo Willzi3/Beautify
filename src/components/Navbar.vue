@@ -1,11 +1,15 @@
 <template>
   <nav class="nav_bar" id="nav_bar">
-    <router-link class="nav-links" to="/">Home</router-link> |
-    <router-link class="nav-links" to="/about">About</router-link> |
-    <router-link class="nav-links" to="/contact">Contact</router-link> |
-    <router-link class="nav-links" to="/services">Services</router-link> |
-    <router-link class="nav-links" to="/admin">Admin</router-link> |
-    <router-link class="nav-links" to="/products">Products</router-link>
+    <h3 id="logo">Curl Me Crazy</h3>
+    <div class="nav_bar_links">
+      <router-link class="nav-links" to="/home">Home</router-link>
+      <router-link class="nav-links" to="/about">About</router-link>
+      <router-link class="nav-links" to="/contact">Contact</router-link>
+      <router-link class="nav-links" to="/services">Services</router-link>
+      <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
+      <router-link class="nav-links" to="/products">Products</router-link>
+    </div>
+    <router-link class="nav-links" to="/products">My Profile</router-link>
   </nav>
   <router-view />
 </template>
@@ -21,11 +25,19 @@ export default {
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
 }
-
+#logo {
+  color: var(--primary-text-colour) !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
 .nav_bar {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
+}
+.nav_bar_links {
+  display: flex;
+  justify-content: space-around;
+  width: 30rem;
 }
 .nav-links {
   text-decoration: none;
