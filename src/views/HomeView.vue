@@ -1,5 +1,5 @@
 <template>
-  <section >
+  <section>
     <form action="" class="login_form">
       <input type="text" placeholder="Full Name" /><input
         type="email"
@@ -62,7 +62,7 @@ export default {
 <style>
 :root {
   --secondary-text-colour: #0b1108;
-  --primary-text-colour: #c6c0b7;
+  --primary-text-colour: white;
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
 }
