@@ -1,7 +1,7 @@
 <template>
   <router-link
     class="product_box"
-    :to="{ name: 'products', params: { id: product.id } }"
+    :to="{ name: 'ProductDetails', params: { id: product.id } }"
   >
     <div class="card">
       <img class="product_img" :src="product.img" />

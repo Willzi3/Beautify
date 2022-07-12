@@ -1,15 +1,20 @@
 <template>
-  <section>
-    <form action="" class="login_form">
-      <input type="text" placeholder="Full Name" /><input
-        type="email"
-        placeholder="Email"
-      /><input type="password" placeholder="Password" /><button type="submit">
+  <section v-if="!Users">
+    <form @submit.prevent="login" class="login_form">
+      <input type="email" placeholder="Email" v-model="email"/>
+      <input type="password" placeholder="Password" v-model="password"/><button type="submit">
         Login
       </button>
-      <p>Don't have an account?</p>
-      <button>Sign-up</button>
+       <p>Don't have an account?</p>
+      <router-link to="/register">
+       <button>Signup</button>
+      </router-link>
+        
+      
+      
     </form>
+    <div v-if="Users">
+    Welcome{{Users.full_Name}}</div>
     <span></span>
   </section>
   <section id="pics">
@@ -51,6 +56,22 @@ export default {
   components: {
     HelloWorld,
   },
+   computed: {
+        Users() {
+            return this.$store.state.Users;
+        }
+    },
+  data(){
+    return{
+      email: "",
+      password: "",
+    }
+  },
+  methods: {
+    login(){
+     this.$store.dispatch("login", { email: this.email, password: this.password })
+    },
+  }
   // mounted({
   //   fetch("")
   //   .then(res => res.json())
@@ -102,8 +123,7 @@ section {
   gap: 20px;
 }
 section:not(#pics) {
-  background: crimson;
-  opacity: 0.5;
+  background: rgba(237, 20, 61, 0.5);;
   position: relative;
   z-index: 10;
   align-self: center;

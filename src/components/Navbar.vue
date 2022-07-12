@@ -7,7 +7,7 @@
       <router-link class="nav-links" to="/contact">Contact</router-link>
       <router-link class="nav-links" to="/services">Services</router-link>
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
-      <router-link class="nav-links" to="/products">Products</router-link>
+      <router-link class="nav-links" to="/login">Login</router-link>
     </div>
     <router-link v-if="!User">Register</router-link>
     <router-link class="nav-links" to="/products" id="my_profile" v-else
@@ -18,20 +18,23 @@
         <li class="profile_links">Logout</li>
       </ul>
     </router-link>
+    <router-link class="nav-links" to="/register">Register</router-link>
   </nav>
   <router-view />
 </template>
 <script>
-import { userInfo } from 'os'
-
 export default {
   name: "Navbar",
-  component {
-    user(){
-      return.this$store.state.user
-    }
-  }
-};
+  // components:{
+
+  // }
+  // computed: {
+  //    user(){
+  //   this$store.state.User
+  //   }
+  // } 
+  };
+
 </script>
 <style>
 :root {

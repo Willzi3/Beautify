@@ -40,11 +40,11 @@ a {
 .card {
   background: none;
 }
-.card:hover {
+/* .card:hover { */
   /* background: black;
   color: white;
   box-shadow: 5px 5px 5px 5px lightslategray; */
-}
+/* } */
 img {
   width: 200px;
   height: 200px;
