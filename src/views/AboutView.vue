@@ -6,7 +6,7 @@
       </div>
 
       <h2 class="special">Complete</h2>
-      <h1>Customer Satisfaction</h1>
+      <h1 class="cus">Customer Satisfaction</h1>
       <p class="first">
         From the moment they opened the doors to the first Curl Me Crazy Salon
         in 2018, the four partners focused everything they did on one goal. It
@@ -25,7 +25,7 @@
     <div class="about-info">
       <div><img src="../assets/ambience.jpg" alt="image" /></div>
       <div>
-        <h1>The<br /></h1>
+        <h1 class="cus">The<br /></h1>
         <h2>Ambience</h2>
         <p>
           The firsts thing you experience. It is at once inviting, comfortable
@@ -36,7 +36,7 @@
     <div class="about-info2">
       <div><img src="../assets/barber.jpg" alt="image" /></div>
       <div>
-        <h1>The<br /></h1>
+        <h1 class="cus">The<br /></h1>
         <h2>Connections</h2>
         <p>
           How can any stylist create a “uniquely personal style” if they don’t
@@ -48,7 +48,7 @@
     <div class="about-info">
       <div><img src="../assets/color.jpg" alt="image" /></div>
       <div>
-        <h1>The<br /></h1>
+        <h1 class="cus">The<br /></h1>
         <h2>Style</h2>
         <p>
           Yes, every Curl Me Crazy Salon stylist is educated, trained and
@@ -62,7 +62,7 @@
     <div class="about-info2">
       <div><img src="../assets/products.jpg" alt="image" /></div>
       <div>
-        <h1>The<br /></h1>
+        <h1 class="cus">The<br /></h1>
         <h2>Enlightenment</h2>
         <p>
           The Curl Me Crazy team realized that knowledgeable clients are better
@@ -80,13 +80,13 @@
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../assets/rev1.jpg" class="d-block w-100" alt="image" />
+          <img src="../assets/rev1.jpg" class="d-block w-70" alt="image" />
         </div>
         <div class="carousel-item">
-          <img src="../assets/rev2.jpg" class="d-block w-100" alt="image" />
+          <img src="../assets/rev2.jpg" class="d-block w-70" alt="image" />
         </div>
         <div class="carousel-item">
-          <img src="../assets/rev3.jpg" class="d-block w-100" alt="image" />
+          <img src="../assets/rev3.jpg" class="d-block w-70" alt="image" />
         </div>
       </div>
       <button
@@ -125,7 +125,7 @@ export default {};
   margin-bottom: 50px;
 }
 .about img {
-  width: 635px;
+  width: 760px;
   height: 350px;
 }
 .about-info {
@@ -140,5 +140,16 @@ export default {};
 }
 h1 {
   font-family: "Splash", cursive;
+}
+.head {
+  font-family: "Splash", cursive;
+}
+.cus {
+  margin-top: 50px;
+}
+#carouselExampleFade {
+  margin-left: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 </style>
