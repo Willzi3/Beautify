@@ -2,9 +2,11 @@
   <section v-if="!Users">
     <form @submit.prevent="login" class="login_form">
       <input type="email" placeholder="Email" v-model="email"/>
-      <input type="password" placeholder="Password" v-model="password"/><button type="submit">
-        Login
-      </button>
+      <input type="password" placeholder="Password" v-model="password"/>
+      <router-link to="/products">
+        <button type="submit">Login</button>
+      </router-link>
+      
        <p>Don't have an account?</p>
       <router-link to="/register">
        <button>Signup</button>
