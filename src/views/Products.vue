@@ -1,4 +1,10 @@
 <template>
+  <div class="products_category" id="nails">
+    <div v-if="Products.category === Nails">
+    </div>
+  </div>
+  <div class="products_category" id="hair"></div>
+  <div class="products_category"></div>
   <div class="card-display">
     <Card v-for="product in Products" :key="product.id" :product="product" />
     <p></p>

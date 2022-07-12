@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section >
     <form action="" class="login_form">
       <input type="text" placeholder="Full Name" /><input
         type="email"
@@ -75,16 +75,18 @@ body {
   padding-bottom: 100vh;
 }
 .nav_bar {
-  z-index: -20;
+  z-index: 20;
   position: relative;
   background-color: crimson;
   opacity: 0.5;
   margin-top: 0;
   padding-top: 4rem;
+  /* display: none; */
 }
 section {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -104,6 +106,7 @@ section:not(#pics) {
   opacity: 0.5;
   position: relative;
   z-index: 10;
+  align-self: center;
 }
 .home {
   display: grid;
@@ -152,8 +155,7 @@ body {
   backdrop-filter: blur(12.6px);
   -webkit-backdrop-filter: blur(12.6px);
   border: 1px solid rgba(255, 255, 255, 0.23);
-
-  align-self: baseline;
+  align-self: center;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -165,6 +167,8 @@ input {
   background: black;
   opacity: 0.5;
   padding: 0.5rem;
+  color: var(--primary-text-colour);
+  font-family: var(--main-font);
 }
 button {
   border: none;
