@@ -1,5 +1,5 @@
 <template>
-  <section v-if="!Users">
+  <!-- <section v-if="!Users">
     <form @submit.prevent="login" class="login_form">
       <input type="email" placeholder="Email" v-model="email"/>
       <input type="password" placeholder="Password" v-model="password"/>
@@ -18,7 +18,7 @@
     <div v-if="Users">
     Welcome{{Users.full_Name}}</div>
     <span></span>
-  </section>
+  </section> -->
   <section id="pics">
     <div class="home">
       <div class="home-img">
@@ -82,12 +82,13 @@ export default {
   // })
 };
 </script>
-<style>
+<style scoped>
 :root {
   --secondary-text-colour: #0b1108;
   --primary-text-colour: #c6c0b7;
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
+  --heading-font: 'Noto Serif Display', serif;
 }
 * {
   margin: 0;

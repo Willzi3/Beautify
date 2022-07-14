@@ -1,18 +1,23 @@
 <template>
   <div class="contact_container">
-    <form action="post" class="contact_form">
-      <p>Please get in touch with us</p>
-      <div class="fullname">
-        <input type="text" placeholder="Name" style="width: 50%" />
-        <input type="text" placeholder="Surname" style="width: 50%" />
-      </div>
-      <input type="text" placeholder="Cellphone" /><input
-        type="email"
-        placeholder="email"
-      />
-      <textarea name="message"></textarea>
-      <button type="submit" id="contact_button">Submit</button>
-    </form>
+    <div style="width: 50%">
+      <img style="width: 100%" src="../../images/aboutimg.jpg" alt="" />
+    </div>
+    <div style="width: 50%">
+      <form action="post" class="contact_form">
+        <p>Please get in touch with us</p>
+        <div class="fullname">
+          <input type="text" placeholder="Name" style="width: 50%" />
+          <input type="text" placeholder="Surname" style="width: 50%" />
+        </div>
+        <input type="text" placeholder="Cellphone" /><input
+          type="email"
+          placeholder="email"
+        />
+        <textarea name="message"></textarea>
+        <button type="submit" id="contact_button">Submit</button>
+      </form>
+    </div>
   </div>
 </template>
 <script>
@@ -21,20 +26,19 @@ export default {};
 <style>
 .contact_container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  gap: 4rem;
+  padding: 4rem;
+
 }
 .contact_form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 40%;
   align-self: center;
-  margin-top: 5rem;
-  -webkit-box-shadow: 18px 15px 23px 0px rgba(255, 0, 58, 0.4);
+  /* -webkit-box-shadow: 18px 15px 23px 0px rgba(255, 0, 58, 0.4);
   box-shadow: 18px 15px 23px 0px rgba(255, 0, 58, 0.4);
-  border-radius: 2rem;
-  padding: 40px;
+  border-radius: 2rem; */
   color: var(--hover-highlight);
   font-weight: bold;
   font-style: oblique;
@@ -55,6 +59,7 @@ textarea {
 .fullname {
   display: flex;
   widows: 100%;
+  gap: 0.5rem;
 }
 input:hover {
   color: crimson;

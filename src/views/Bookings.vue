@@ -9,7 +9,7 @@
             </button>
         </a>
         </section >
-        <section id="catergory">
+        <!-- <section id="catergory">
             <div class="catergoryItem">
                <router-link to="/nails">
                 <button>
@@ -30,8 +30,8 @@
                     Facials
                 </button>
                </router-link>
-            </div>
-        </section>
+            </div> -->
+        <!-- </section> -->
     </div>
 </template>
 <script>
