@@ -5,6 +5,7 @@
       <router-link class="nav-links" to="/home">Home</router-link>
       <router-link class="nav-links" to="/about">About</router-link>
       <router-link class="nav-links" to="/contact">Contact</router-link>
+          <router-link class="nav-links" to="/products">Products</router-link>
       <router-link class="nav-links" to="/services">Services</router-link>
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
       <router-link class="nav-links" to="/login">Login</router-link>

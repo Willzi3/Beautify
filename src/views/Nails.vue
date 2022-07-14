@@ -1,13 +1,13 @@
 <template>
 <h1>Nails</h1>
    <div class="card-display">
-    <NailsCard v-for="nail in Nails" :key="nail.id" :nail="nail"/>
+    <NailsCard v-for="nail in Nails" :key="nail.id" :nail="nail" />
    </div> 
 </template>
 <script>
-import UsersCard from "../components/NailsCard.vue";
+import NailsCard from "../components/NailsCard.vue";
 export default {
-  components: ["NailsCard"],
+  components: {NailsCard},
   data() {
     return {
         Nails: [],
