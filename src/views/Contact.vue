@@ -1,7 +1,7 @@
 <template>
   <div class="contact_container">
     <div style="width: 50%">
-      <img style="width: 100%" src="../../images/aboutimg.jpg" alt="" />
+      <img style="width: 100%" src="../../images/facial.jpg" alt="" />
     </div>
     <div style="width: 50%">
       <form action="post" class="contact_form">
@@ -29,7 +29,6 @@ export default {};
   justify-content: center;
   gap: 4rem;
   padding: 4rem;
-
 }
 .contact_form {
   display: flex;

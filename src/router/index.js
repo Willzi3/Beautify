@@ -42,6 +42,7 @@ const routes = [
     path: "/products/:id",
     name: "ProductDetails",
     component: () => import("../views/ProductDetails.vue"),
+    props: true,
   },
   {
     path: "/login",
@@ -59,9 +60,25 @@ const routes = [
     component: () => import("../views/Nails.vue"),
   },
   {
+    path: "/nails/:id",
+    name: "Nail",
+    component: () => import("../views/Nail.vue"),
+    props: true,
+  },
+  {
     path: "/hair",
+    name: "Hairs",
+    component: () => import("../views/Hairs.vue"),
+  },
+  {
+    path: "/hair/:id",
     name: "Hair",
     component: () => import("../views/Hair.vue"),
+  },
+  {
+    path: "/facial:id",
+    name: "Facial",
+    component: () => import("../views/Facial.vue"),
   },
   {
     path: "/facial",

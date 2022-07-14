@@ -1,24 +1,24 @@
 <template>
-  <!-- <section v-if="!Users">
+  <!-- <section v-if="!Users"> -->
+
+  <section v-if="Users">
     <form @submit.prevent="login" class="login_form">
-      <input type="email" placeholder="Email" v-model="email"/>
-      <input type="password" placeholder="Password" v-model="password"/>
+      <input type="email" placeholder="Email" v-model="email" />
+      <input type="password" placeholder="Password" v-model="password" />
       <router-link to="/products">
         <button type="submit">Login</button>
       </router-link>
-      
-       <p>Don't have an account?</p>
+
+      <p>Don't have an account?</p>
       <router-link to="/register">
-       <button>Signup</button>
+        <button>Signup</button>
       </router-link>
-        
-      
-      
     </form>
-    <div v-if="Users">
-    Welcome{{Users.full_Name}}</div>
-    <span></span>
-  </section> -->
+    <!-- <div v-if="Users"> -->
+    <!--div> -->
+    Welcome{{ Users.full_Name }}
+  </section>
+  <span></span>
   <section id="pics">
     <div class="home">
       <div class="home-img">
@@ -58,22 +58,25 @@ export default {
   components: {
     HelloWorld,
   },
-   computed: {
-        Users() {
-            return this.$store.state.Users;
-        }
+  computed: {
+    Users() {
+      return this.$store.state.Users;
     },
-  data(){
-    return{
+  },
+  data() {
+    return {
       email: "",
       password: "",
-    }
+    };
   },
   methods: {
-    login(){
-     this.$store.dispatch("login", { email: this.email, password: this.password })
+    login() {
+      this.$store.dispatch("login", {
+        email: this.email,
+        password: this.password,
+      });
     },
-  }
+  },
   // mounted({
   //   fetch("")
   //   .then(res => res.json())
@@ -88,7 +91,7 @@ export default {
   --primary-text-colour: #c6c0b7;
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
-  --heading-font: 'Noto Serif Display', serif;
+  --heading-font: "Noto Serif Display", serif;
 }
 * {
   margin: 0;
@@ -124,7 +127,7 @@ section {
   gap: 20px;
 }
 section:not(#pics) {
-  background: rgba(237, 20, 61, 0.5);;
+  background: rgba(237, 20, 61, 0.5);
   position: relative;
   z-index: 10;
 }

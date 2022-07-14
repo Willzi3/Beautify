@@ -12,7 +12,7 @@
     </div>
     <router-link class="nav-links" to="/register">Register</router-link>
   </nav>
-  <router-view />
+
 </template>
 <script>
 export default {

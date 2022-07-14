@@ -1,23 +1,20 @@
 <template>
-  <router-link
-    class="product_box"
-    :to="{ name: 'ProductDetails', params: { id: Product.id } }"
-  >
-    <div class="card">
-      <img class="product_img" :src="Product.img" />
-      <p class="product_title">{{ Product.name }}</p>
-    </div>
-  </router-link>
+ <router-link :to="{name:'Nail', params: {id:Nail.id}}">
+  <h2>
+      {{ Nail.role }}
+    </h2>
+ </router-link>
 </template>
 <script>
 export default {
-  props: ["Product"],
+  props: ["Nail"],
+
 };
 </script>
 <style>
 :root {
-  --secondary-text-colour: #0b1108;
-  --primary-text-colour: #c6c0b7;
+  --secondary-text-colour: #0B1108;
+  --primary-text-colour: #C6C0B7;
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
 }
@@ -40,5 +37,8 @@ export default {
 }
 .card {
   background: none;
+}
+i{
+  padding-top: 20px;
 }
 </style>

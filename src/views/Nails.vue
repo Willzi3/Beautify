@@ -1,12 +1,28 @@
 <template>
 <h1>Nails</h1>
-   <div class="card-display">
-    
-   </div> 
+  <div v-if="Nails">
+  <NailsCard
+   v-for="Nail in Nails" 
+   :key="Nail.id" 
+   :Nail="Nail"/>
+
+  </div>
 </template>
 <script>
+import NailsCard from "../components/NailsCard.vue";
 export default {
-  props: ["user"],
+  components: {NailsCard},
+
+  mounted() {
+    this.$store.dispatch("getNails");
+  },
+
+  computed: {
+    Nails() {
+      return this.$store.state.Nails
+    }
+  }
+
 };
 </script>
 <style>

@@ -1,7 +1,7 @@
 <template>
-  <div v-if="Hair">
+  <div v-if="Nail">
     <h2>
-      {{ Hair.role }}
+      {{ Nail.role }}
     </h2>
   </div>
 </template>
@@ -10,12 +10,12 @@
 export default {
   props: ["id"],
   computed: {
-    Hair() {
-      return this.$store.state.Hair;
+    Nail() {
+      return this.$store.state.Nail;
     },
   },
   mounted() {
-    this.$store.dispatch("getHair", this.id)
+    this.$store.dispatch("getNail", this.id)
   }
 };
 </script>

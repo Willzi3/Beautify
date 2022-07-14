@@ -6,12 +6,11 @@
             <input type="text" v-model="email" placeholder="Email">
             <input type="text" v-model="password" placeholder="Password">
             <button type="submit">Register</button>
+            <router-link to="/Login"><p>already a member</p></router-link>
         </form>
          <div v-if="Users">
-            
-            <router-link to="/">
-                Welcome {{ Users.FullName }}
-            </router-link>
+             Welcome {{ Users.FullName }}
+               
         </div>
     </div>
 </template>
