@@ -1,22 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import Products from '../views/Products.vue'
-import ProductDetails from '../views/ProductDetails.vue'
+
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
+ 
   {
     path: '/products',
     name: 'products',
@@ -40,7 +26,8 @@ const routes = [
   {
     path: '/products/:id',
     name: 'ProductDetails',
-    component: () => import('../views/ProductDetails.vue')
+    component: () => import('../views/ProductDetails.vue'),
+    props: true
   },
   {
     path: '/login',
@@ -58,9 +45,25 @@ const routes = [
     component: () => import('../views/Nails.vue')
   },
   {
+    path: '/nails/:id',
+    name: 'Nail',
+    component: () => import('../views/Nail.vue'),
+    props: true
+  },
+  {
     path: '/hair',
+    name: 'Hairs',
+    component: () => import('../views/Hairs.vue')
+  },
+  {
+    path: '/hair/:id',
     name: 'Hair',
     component: () => import('../views/Hair.vue')
+  },
+  {
+    path: '/facial:id',
+    name: 'Facial',
+    component: () => import('../views/Facial.vue')
   },
   {
     path: '/facial',

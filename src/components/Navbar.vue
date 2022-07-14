@@ -2,16 +2,16 @@
   <nav class="nav_bar" id="nav_bar">
     <h3 id="logo">Curl Me Crazy</h3>
     <div class="nav_bar_links">
-      <router-link class="nav-links" to="/home">Home</router-link>
+      <!-- <router-link class="nav-links" to="/home">Home</router-link>
       <router-link class="nav-links" to="/about">About</router-link>
       <router-link class="nav-links" to="/contact">Contact</router-link>
-      <router-link class="nav-links" to="/services">Services</router-link>
+      <router-link class="nav-links" to="/services">Services</router-link> -->
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
       <router-link class="nav-links" to="/login">Login</router-link>
     </div>
     <router-link class="nav-links" to="/register">Register</router-link>
   </nav>
-  <router-view />
+
 </template>
 <script>
 export default {

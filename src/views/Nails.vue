@@ -1,24 +1,28 @@
 <template>
 <h1>Nails</h1>
-   <div class="card-display">
-    <NailsCard v-for="nail in Nails" :key="nail.id" :nail="nail"/>
-   </div> 
+  <div v-if="Nails">
+  <NailsCard
+   v-for="Nail in Nails" 
+   :key="Nail.id" 
+   :Nail="Nail"/>
+
+  </div>
 </template>
 <script>
-import UsersCard from "../components/NailsCard.vue";
+import NailsCard from "../components/NailsCard.vue";
 export default {
-  components: ["NailsCard"],
-  data() {
-    return {
-        Nails: [],
-    };
-  },
+  components: {NailsCard},
+
   mounted() {
-    fetch("http://localhost:3000/nails")
-    .then((res) => res.json())
-    .then((data) => (this.Nails = data))
-    .catch((err) => console.log(err.message))
+    this.$store.dispatch("getNails");
   },
+
+  computed: {
+    Nails() {
+      return this.$store.state.Nails
+    }
+  }
+
 };
 </script>
 <style>

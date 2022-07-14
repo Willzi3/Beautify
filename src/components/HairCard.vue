@@ -1,15 +1,14 @@
 <template>
-    <div class="card">
-     <i class="fa-solid fa-user"></i>
-      <p class="user_fullname">{{ user.Fullname }}</p>
-      <p class="user_email">{{ user.email }}</p>
-      <p class="user_role">{{ user.role}}</p>
-       <p class="contact">{{ user.call}}</p>
-    </div>
+ <router-link :to="{name:'Hairs', params: {id:Hairs.id}}">
+  <h2>
+      {{ Hairs.role }}
+    </h2>
+ </router-link>
 </template>
 <script>
 export default {
-  props: ["user"],
+  props: ["Hairs"],
+
 };
 </script>
 <style>

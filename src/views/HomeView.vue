@@ -1,5 +1,5 @@
 <template>
-  <section v-if="!Users">
+  <section v-if="Users">
     <form @submit.prevent="login" class="login_form">
       <input type="email" placeholder="Email" v-model="email"/>
       <input type="password" placeholder="Password" v-model="password"/>
@@ -15,8 +15,9 @@
       
       
     </form>
-    <div v-if="Users">
-    Welcome{{Users.full_Name}}</div>
+    <!-- <div v-if="Users"> -->
+    <!--div> -->
+     Welcome{{Users.full_Name}}</section>
     <span></span>
   </section>
   <section id="pics">

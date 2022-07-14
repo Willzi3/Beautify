@@ -1,24 +1,25 @@
 <template>
-  <div class="card-display">
-    <Card v-for="product in Products" :key="product.id" :product="product" />
-    <p></p>
+ <h1>Products</h1>
+ <div v-if="Products">
+  <Card
+   v-for="Product in Products" 
+   :key="Product.id" 
+   :Product="Product"/>
+
   </div>
 </template>
 <script>
 import Card from "../components/Card.vue";
 export default {
   components: { Card },
-  data() {
-    return {
-      Products: [],
-    };
-  },
   mounted() {
-    fetch("http://localhost:3000/products")
-      .then((res) => res.json())
-      .then((data) => (this.Products = data))
-      .catch((err) => console.log(err.message));
+    this.$store.dispatch("getProducts");
   },
+  computed: {
+    Products() {
+      return this.$store.state.Products
+    }
+  }
 };
 </script>
 <style scoped>

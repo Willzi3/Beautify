@@ -1,17 +1,17 @@
 <template>
   <router-link
     class="product_box"
-    :to="{ name: 'ProductDetails', params: { id: product.id } }"
+    :to="{ name: 'ProductDetails', params: { id: Product.id } }"
   >
     <div class="card">
-      <img class="product_img" :src="product.img" />
-      <p class="product_title">{{ product.name }}</p>
+      <img class="product_img" :src="Product.img" />
+      <p class="product_title">{{ Product.name }}</p>
     </div>
   </router-link>
 </template>
 <script>
 export default {
-  props: ["product"],
+  props: ["Product"],
 };
 </script>
 <style>
