@@ -1,12 +1,8 @@
 <template>
-<h1></h1>
-    <div class="card">
-     <i class="fa-solid fa-user"></i>
-      <p class="user_fullname">{{ user.Fullname }}</p>
-      <p class="user_email">{{ user.email }}</p>
-      <p class="user_role">{{ user.role}}</p>
-       <p class="contact">{{ user.call}}</p>
-    </div>
+<h1>Nails</h1>
+   <div class="card-display">
+    
+   </div> 
 </template>
 <script>
 export default {
