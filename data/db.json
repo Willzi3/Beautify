@@ -282,49 +282,114 @@
     }
   ],
   "Users": [
+      {
+        "id": 1,
+        "Fullname": "Riley Raid",
+        "email": "riley@gmail.com",
+        "password":"password",
+        "role":"Admin",
+        "call":" 073 938 4990"
+    },
+    {
+        "id": 2,
+        "Fullname": "Delmar Monteiro",
+        "email": "delmar@gmail.com",
+        "password":"password",
+        "role":"service provider",
+        "catergory":"Nails",
+        "call":" 081 036 3946"
+    },
+    {
+        "id": 3,
+        "Fullname": "Nadiy Chehivskiy",
+        "email": "Nadiy@gmail.com",
+        "password":"password",
+        "role":"service provider",
+        "call":" 074 001 5628"
+    },
+    {
+        "id": 4,
+        "Fullname": "Elina Husabø",
+        "email": "ElinaHus@gmail.com",
+        "password":"password",
+        "role":"service provider",
+        "call":" 083 778 83910"
+    },
+    {
+        "id": 5,
+        "Fullname": "Kevin Kirkhus",
+        "email": "KevinKs@gmail.com",
+        "password":"password",
+        "role":"service provider",
+        "call":" 073 838 7790"
+    },
+    {
+        "id": 6,
+        "Fullname": "Blanca Longoria",
+        "email": "KevinKs@gmail.com",
+        "password":"password",
+        "role":"service provider"
+    }
+   
+  ],
+  "Nails": [
     {
       "id": 1,
-      "FullName": "Riley Reid",
-      "email": "riley@gmail.com",
-      "password": "password",
-      "role": "customer",
-      "image": ""
+      "Fullname": "Delmar Monteiro",
+      "email": "delmar@gmail.com",
+      "role":"service provider",
+      "catergory":"Nails",
+      "call":" 081 036 3946"
+  },
+  {
+    
+    "id": 2,
+    "Fullname": "Khalid Font",
+    "email": "KFont@gmail.com",
+    "role":"service provider",
+    "catergory":"Nails",
+    "call":" 078 639 2316"
+
+  }
+  ],
+  "Hair": [
+    {
+    "id": 1,
+    "Fullname": "Hilson Jeff",
+    "email": "HillJe@gmail.com",
+    "role":"service provider",
+    "catergory":"Hair",
+    "call":" 082 555 7899"
     },
     {
-      "FullName": "xhanti",
-      "email": "xhanti@gmail.com",
-      "password": "password",
-      "id": 2
+    "id": 2,
+    "Fullname": "Anathi Makhadzi",
+    "email": "AnathiMakhadzi@gmail.com",
+    "role":"service provider",
+    "catergory":"Nails",
+    "call":" 078 990 1343"
+    }
+    
+
+  ],
+  "Facial": [
+    {
+    "id": 1,
+    "Fullname": "Busisiwe Zulu",
+    "email": "BusisiweZ9@gmail.com",
+    "role":"service provider",
+    "catergory":"Facials",
+    "call":" 071 094 2976"
     },
     {
-      "FullName": "zachary",
-      "email": "zachary@gmail.com",
-      "password": "password",
-      "id": 3
-    },
-    {
-      "FullName": "Live",
-      "email": "live@gmail.com",
-      "password": "passwrod",
-      "id": 4
-    },
-    {
-      "FullName": "zachary",
-      "email": "zachary@gmail.com",
-      "password": "password",
-      "id": 5
-    },
-    {
-      "FullName": "Live",
-      "email": "live@gmail.com",
-      "password": "password",
-      "id": 6
-    },
-    {
-      "FullName": "sunethia",
-      "email": "sunny@gmail.com",
-      "password": "password",
-      "id": 7
+    "id": 2,
+    "Fullname": "Zachary Wills",
+    "email": "ZacharyWills2@gmail.com",
+    "role":"service provider",
+    "catergory":"Facial",
+    "call":" 081 036 3946"
     }
   ]
+  
+
 }

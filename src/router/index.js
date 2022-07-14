@@ -51,6 +51,21 @@ const routes = [
     path: '/register',
     name: 'Register',
     component: () => import('../views/Register.vue')
+  },
+  {
+    path: '/nails',
+    name: 'Nails',
+    component: () => import('../views/Nails.vue')
+  },
+  {
+    path: '/hair',
+    name: 'Hair',
+    component: () => import('../views/Hair.vue')
+  },
+  {
+    path: '/facial',
+    name: 'Facial',
+    component: () => import('../views/Facial.vue')
   }
   
 ]
