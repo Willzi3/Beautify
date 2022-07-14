@@ -120,6 +120,12 @@
       "email": "siyanda@gmail.com",
       "password": "password",
       "id": 2
+    },
+    {
+      "FullName": "sunethia",
+      "email": "sunethia@ggmail.com",
+      "password": "pword",
+      "id": 3
     }
   ],
   "Nails": [

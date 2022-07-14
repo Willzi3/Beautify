@@ -1,6 +1,8 @@
 <template>
- <h1>Products</h1>
- <div v-if="Products">
+<div>
+  
+</div>
+ <div v-if="Products" class="card_display">
   <Card
    v-for="Product in Products" 
    :key="Product.id" 
@@ -23,7 +25,7 @@ export default {
 };
 </script>
 <style scoped>
-.card-display {
+.card_display {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;

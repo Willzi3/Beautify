@@ -1,10 +1,14 @@
 <template>
   <div class="contact_container">
     <div style="width: 50%">
-      <img style="width: 100%" src="../../images/facial.jpg" alt="" />
+      <img style="width: 100%" src="../../images/contact-image.jpg" alt="" />
     </div>
     <div style="width: 50%">
-      <form action="post" class="contact_form">
+      <form
+        method="post"
+        action="https://formspree.io/f/xgedjjaz"
+        class="contact_form"
+      >
         <p>Please get in touch with us</p>
         <div class="fullname">
           <input type="text" placeholder="Name" style="width: 50%" />
@@ -29,6 +33,7 @@ export default {};
   justify-content: center;
   gap: 4rem;
   padding: 4rem;
+  margin-inline: 6rem;
 }
 .contact_form {
   display: flex;
