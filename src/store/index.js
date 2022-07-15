@@ -6,7 +6,8 @@ export default createStore({
     Nail:null,
     Nails:null,
     Products: null,
-    Product: null
+    Product: null,
+    asc: true
   }, 
   mutations: {
     setProduct: (state, Product) => {
@@ -35,6 +36,16 @@ export default createStore({
     },
     setFacials: (state,Facials) => {
       state,Facials = Facials
+    },
+    sortByPrice: (state) => {
+      state.Products.sort((a, b) => {
+        return a.price - b.price; //like vanilla javascript, this is how you make a sort function
+      });
+      if (!state.asc) {
+        //if the asc is not true, it reverses the current order of the list
+        state.Products.reverse(); // reverts the order
+      }
+      state.asc = !state.asc; //states that when the function is run, asc becomes false instead of true
     },
     
   },
@@ -110,7 +121,8 @@ export default createStore({
       fetch(" http://localhost:3000/Products/" +id)
       .then((res) => res.json())
       .then((Products) => context.commit("DeleteProduct", Products))
-    }
+    },
+    
   },
   modules: {
   }

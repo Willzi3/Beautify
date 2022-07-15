@@ -1,15 +1,26 @@
 <template>
- <h1>Products</h1>
  <form class="filters">
-    <select name="" id="">
-        <label>Sort By</label>
-        <option>Price</option>
-        <option>catergory</option>
+    <!-- <select name="" class="inp" v-model="price">
+        <label>Sort By Price</label>
+        <option value="All" selected>All</option>
+        <option value="100">R100</option>
+        <option value="200">R200</option>
+        <option value="250">R250</option>
+    </select> -->
+    <button @click="sort">Sort</button>
+    <select name="" class="inp" v-model="Catergory">
+        <label>Sort By Catergory</label>
+        <option value="All" selected>All</option>
+        <option value="Nails">Nail</option>
+        <option value="Hair">Hair</option>
+        <option value="Facial">Facial</option>
     </select>
+    <input type="text" v-model="search" placeholder="search..."  class="inp" />
+    {{ search }}
 </form>
  <div v-if="Products" class="prods">
   <Card
-   v-for="Product in Products" 
+   v-for="Product of filteredProducts" 
    :key="Product.id" 
    :Product="Product"/>
 
@@ -18,14 +29,38 @@
 <script>
 import Card from "../components/Card.vue";
 export default {
-  components: { Card },
-  mounted() {
-    this.$store.dispatch("getProducts");
+  data() {
+    return{
+      search: "",
+      price: "All",
+      catergory: "All"
+      // filteredProducts: [...this.Products]
+    }
   },
   computed: {
     Products() {
       return this.$store.state.Products
-    }
+    },
+  filteredProducts() {
+    return this.$store.state.Products?.filter((Product) => {
+      let isMatch = true;
+      if (!Product.name.toLowerCase().includes(this.search.toLowerCase())) isMatch = false
+
+      if(this.catergory !== "All" && Product.catergory !== this.catergory)
+      isMatch = false;
+      return isMatch
+      // return Product.name.toLowerCase().includes(this.search.toLowerCase())
+    });
+  },
+  },
+  methods: {
+sort() {
+  this.$store.commit("sortByPrice");
+}
+  },
+  components: { Card },
+  mounted() {
+    this.$store.dispatch("getProducts");
   }
 };
 </script>
@@ -60,8 +95,19 @@ h1 {
   z-index: 10;
 }
 .filters{
-  border: 1px solid black;
   margin-inline: 20%;
   height: 100px;
+  display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    background: #cfa982;
+}
+.inp {
+  border: none;
+    border-radius: 5px;
+    height: 30px
 }
 </style>
