@@ -104,7 +104,7 @@ body {
 .nav_bar {
   z-index: 20;
   position: relative;
-  background-color: crimson;
+  background-color: var(--hover-highlight);
   opacity: 0.5;
   margin-top: 0;
   padding-top: 4rem;
@@ -196,7 +196,7 @@ button {
   border: none;
   border-radius: 0.5rem;
   padding: 0.2rem;
-  background-color: crimson;
+  background-color: var(--hover-highlight);
   color: var(--primary-text-colour);
 }
 

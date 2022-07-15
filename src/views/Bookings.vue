@@ -1,38 +1,9 @@
-<template lang="">
-    <div>
-       
-        <section class="book">
-            <h1>Booking</h1>
-        <a href="#catergory">
-             <button class="bookBtn">
-                book
-            </button>
-        </a>
-        </section >
-        <!-- <section id="catergory">
-            <div class="catergoryItem">
-               <router-link to="/nails">
-                <button>
-                    Nails
-                </button>
-               </router-link>
-            </div>
-            <div class="catergoryItem">
-                <router-link to="/hair">
-                <button>
-                    Hair
-                </button>
-               </router-link>
-            </div>
-            <div class="catergoryItem">
-                <router-link to="/facial">
-                <button>
-                    Facials
-                </button>
-               </router-link>
-            </div> -->
-        <!-- </section> -->
-    </div>
+<template>
+   <div class="booking">
+    <div class="booking_sections"></div>
+    <div class="booking_sections"></div>
+    <div class="booking_sections"></div>
+   </div>
 </template>
 <script>
 export default {
