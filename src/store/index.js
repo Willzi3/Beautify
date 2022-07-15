@@ -36,7 +36,7 @@ export default createStore({
     setFacials: (state,Facials) => {
       state,Facials = Facials
     },
-
+    
   },
   actions: {
     login: async (context, data) => {
@@ -105,8 +105,12 @@ export default createStore({
       fetch(" http://localhost:3000/Products")
       .then((res) => res.json())
       .then((Products) => context.commit("setProducts",Products))
+    },
+    DeleteProduct: async (context, id) => {
+      fetch(" http://localhost:3000/Products/" +id)
+      .then((res) => res.json())
+      .then((Products) => context.commit("DeleteProduct", Products))
     }
-
   },
   modules: {
   }
