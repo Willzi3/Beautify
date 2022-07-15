@@ -186,6 +186,30 @@
       "email": "xhanti@gmail.com",
       "password": "passwordp",
       "id": 13
+    },
+    {
+      "FullName": "lunga",
+      "email": "lunga@gmail.com",
+      "password": "password",
+      "id": 14
+    },
+    {
+      "FullName": "sunethia",
+      "email": "sunethia@gmail.com",
+      "password": "pword",
+      "id": 15
+    },
+    {
+      "FullName": "suni",
+      "email": "suni@gmail.com",
+      "password": "pword",
+      "id": 16
+    },
+    {
+      "FullName": "siya",
+      "email": "siya@gmail.com",
+      "password": "pword",
+      "id": 17
     }
   ],
   "Nails": [

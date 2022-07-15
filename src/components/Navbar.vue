@@ -8,12 +8,14 @@
       <router-link class="nav-links" to="/products">Products</router-link>
       <router-link class="nav-links" to="/bookings">Bookings</router-link>
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
-      <router-link class="nav-links" to="/login">Login</router-link>
+      <router-link class="nav-links" to="/login" v-if="!Users"
+        >Login</router-link
+      >
     </div>
-    <router-link v-if="!User" class="nav-links" to="/register"
+    <router-link v-if="!Users" class="nav-links" to="/register"
       >Register</router-link
     >
-    <router-link v-else class="nav-links" to="/user">My Profile</router-link>
+    <router-link v-else class="nav-links" to="/profile">My Profile</router-link>
   </nav>
 </template>
 <script>
@@ -42,8 +44,8 @@ export default {
   justify-content: space-evenly;
   align-items: center;
   z-index: 50;
-  background-color: rgba(237, 20, 61, 0.5);
-    padding-top: 60px;
+  background-color: var(--hover-highlight);
+  padding-top: 60px;
 }
 .nav_bar_links {
   display: flex;

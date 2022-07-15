@@ -112,6 +112,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+background-color: var(--hover-highlight);
 }
 
 #pics {
