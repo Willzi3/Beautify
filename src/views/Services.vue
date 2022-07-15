@@ -2,10 +2,10 @@
     <div>
        
         <section class="book">
-            <h1>Booking</h1>
+            <h1>Bookings</h1>
         <a href="#catergory">
              <button class="bookBtn">
-                book
+                Book Now
             </button>
         </a>
         </section >

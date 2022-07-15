@@ -1,15 +1,15 @@
 <template>
     <div class="card">
      <i class="fa-solid fa-user"></i>
-      <p class="user_fullname">{{ user.Fullname }}</p>
-      <p class="user_email">{{ user.email }}</p>
-      <p class="user_role">{{ user.role}}</p>
-       <p class="contact">{{ user.call}}</p>
+      <p class="user_fullname">{{ hair.Fullname }}</p>
+      <p class="user_email">{{ hair.email }}</p>
+      <p class="user_role">{{ hair.role}}</p>
+       <p class="contact">{{ hair.call}}</p>
     </div>
 </template>
 <script>
 export default {
-  props: ["user"],
+  props: ["hair"],
 };
 </script>
 <style>

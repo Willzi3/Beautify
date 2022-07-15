@@ -329,20 +329,15 @@
       "email": "KevinKs@gmail.com",
       "password": "password",
       "role": "service provider"
-    },
-    {
-      "FullName": "",
-      "email": "",
-      "password": "",
-      "id": 7
     }
+    
   ],
   "Nails": [
     {
       "id": 1,
       "Fullname": "Delmar Monteiro",
       "email": "delmar@gmail.com",
-      "role": "service provider",
+      "role": "Nail Technician",
       "catergory": "Nails",
       "call": " 081 036 3946"
     },
@@ -350,7 +345,7 @@
       "id": 2,
       "Fullname": "Khalid Font",
       "email": "KFont@gmail.com",
-      "role": "service provider",
+      "role": "Nail Specialist",
       "catergory": "Nails",
       "call": " 078 639 2316"
     }
@@ -360,7 +355,7 @@
       "id": 1,
       "Fullname": "Hilson Jeff",
       "email": "HillJe@gmail.com",
-      "role": "service provider",
+      "role": "Hair stylist",
       "catergory": "Hair",
       "call": " 082 555 7899"
     },
@@ -368,7 +363,7 @@
       "id": 2,
       "Fullname": "Anathi Makhadzi",
       "email": "AnathiMakhadzi@gmail.com",
-      "role": "service provider",
+      "role": "Hair colorist",
       "catergory": "Nails",
       "call": " 078 990 1343"
     }
@@ -378,15 +373,15 @@
       "id": 1,
       "Fullname": "Busisiwe Zulu",
       "email": "BusisiweZ9@gmail.com",
-      "role": "service provider",
+      "role": "Dermatologist",
       "catergory": "Facials",
       "call": " 071 094 2976"
     },
     {
       "id": 2,
-      "Fullname": "Zachary Wills",
-      "email": "ZacharyWills2@gmail.com",
-      "role": "service provider",
+      "Fullname": "Tania Collard",
+      "email": "TaniaCollard@gmail.com",
+      "role": "Esthetician",
       "catergory": "Facial",
       "call": " 081 036 3946"
     }

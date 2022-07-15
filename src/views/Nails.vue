@@ -1,5 +1,5 @@
 <template>
-<h1>Nails</h1>
+<h1>Nail Service Providers</h1>
    <div class="card-display">
     <NailsCard v-for="nail in Nails" :key="nail.id" :nail="nail" />
    </div> 
