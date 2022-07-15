@@ -14,9 +14,9 @@
     <form @submit.prevent="login" class="login_form">
       <input type="email" placeholder="Email" v-model="email" />
       <input type="password" placeholder="Password" v-model="password" />
-      <router-link to="/products">
-        <button type="submit">Login</button>
-      </router-link>
+      <!-- <router-link to="/products"> -->
+      <button type="submit" style="padding-inline: 5px">Login</button>
+      <!-- </router-link> -->
 
       <p>Don't have an account?</p>
       <router-link to="/register">
@@ -64,7 +64,7 @@ export default {
 .login_form {
   background: rgba(255, 255, 255, 0.47);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(12.6px);
   -webkit-backdrop-filter: blur(12.6px);
   border: 1px solid rgba(255, 255, 255, 0.23);
@@ -74,6 +74,7 @@ export default {
   gap: 2rem;
   padding: 3rem;
   width: 22rem;
+  margin-top: 2rem;
 }
 input {
   border: none;
@@ -88,6 +89,7 @@ button {
   border: none;
   border-radius: 0.5rem;
   padding: 0.2rem;
+  padding-inline: 1rem;
   background-color: crimson;
   color: var(--primary-text-colour);
 }

@@ -13,12 +13,18 @@ export default {
 };
 </script>
 <style>
+:root {
+  --secondary-text-colour: #0b1108;
+  --primary-text-colour: #c6c0b7;
+  --hover-highlight: crimson;
+  --main-font: "Source Sans Pro", sans-serif;
+  --heading-font: "Noto Serif Display", serif;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--main-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 nav {

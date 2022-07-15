@@ -29,6 +29,11 @@ const routes = [
     component: () => import("../views/Bookings.vue"),
   },
   {
+    path: "/categories",
+    name: "categories",
+    component: () => import("../views/Categories.vue"),
+  },
+  {
     path: "/contact",
     name: "contact",
     component: () => import("../views/Contact.vue"),
@@ -64,11 +69,6 @@ const routes = [
     name: "Nail",
     component: () => import("../views/Nail.vue"),
     props: true,
-  },
-  {
-    path: "/hair",
-    name: "Hairs",
-    component: () => import("../views/Hairs.vue"),
   },
   {
     path: "/hair/:id",

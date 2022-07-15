@@ -1,24 +1,18 @@
 <template>
   <!-- <section v-if="!Users"> -->
 
-  <section v-if="Users">
+  <section v-if="!Users">
     <form @submit.prevent="login" class="login_form">
       <input type="email" placeholder="Email" v-model="email" />
       <input type="password" placeholder="Password" v-model="password" />
-      <router-link to="/products">
-        <button type="submit">Login</button>
-      </router-link>
+      <button type="submit">Login</button>
 
       <p>Don't have an account?</p>
       <router-link to="/register">
         <button>Signup</button>
       </router-link>
     </form>
-    <!-- <div v-if="Users"> -->
-    <!--div> -->
-    Welcome{{ Users.full_Name }}
   </section>
-  <span></span>
   <section id="pics">
     <div class="home">
       <div class="home-img">
@@ -60,6 +54,7 @@ export default {
   },
   computed: {
     Users() {
+      console.log(this.$store.state.Users);
       return this.$store.state.Users;
     },
   },
@@ -109,6 +104,9 @@ body {
   margin-top: 0;
   padding-top: 4rem;
 }
+#pics {
+  z-index: -50;
+}
 section {
   min-height: 100vh;
   display: flex;
@@ -123,7 +121,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-
+  margin-inline: -40%;
   gap: 20px;
 }
 section:not(#pics) {
@@ -154,6 +152,11 @@ section:not(#pics) {
 .home-img {
   position: relative;
 }
+.home-img img:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  transition: 1s;
+}
 .home-p {
   position: relative;
   top: 50%;
@@ -174,16 +177,17 @@ body {
 .login_form {
   background: rgba(255, 255, 255, 0.47);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(12.6px);
   -webkit-backdrop-filter: blur(12.6px);
   border: 1px solid rgba(255, 255, 255, 0.23);
-
+  margin-top: 4rem;
   align-self: baseline;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 3rem;
+  height: 28rem;
 }
 input {
   border: none;

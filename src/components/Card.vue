@@ -6,6 +6,7 @@
     <div class="card">
       <img class="product_img" :src="Product.img" />
       <p class="product_title">{{ Product.name }}</p>
+       <p class="product_price">R{{ Product.price }}</p>
     </div>
   </router-link>
 </template>
@@ -23,22 +24,51 @@ export default {
 }
 .product_title {
   font-family: "Source Sans Pro", sans-serif;
-  color: var(--primary-text-colour);
-}
-.product_img:hover {
-  width: 120%;
-  height: auto;
-  transition: 3s;
+  color: var(--secondary-text-colour);
 }
 .product_img {
-  transition: 3s;
+  width: 200px;
+  height: 200px;
+  transition: 0.1s all ease-in-out;
+  border-radius: 5px;
 }
 .product_box {
-  width: 12rem;
+  width: 13rem;
   background: none;
   border: none;
 }
-.card {
+.card{
+  width: 200px;
   background: none;
+  border: none;
+}
+.card:hover {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  border: none;
+  box-shadow: 5px 5px 5px 5px #cfa982;
+  
+ 
+  
+}
+.card-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2.5rem;
+}
+.prods{
+  display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    margin-inline: 5%;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #cfa982 4px 4px 4px 4px;
+    margin-bottom: 20px;
 }
 </style>

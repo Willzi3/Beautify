@@ -10,13 +10,20 @@
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
       <router-link class="nav-links" to="/login">Login</router-link>
     </div>
-    <router-link class="nav-links" to="/register">Register</router-link>
+    <router-link v-if="!User" class="nav-links" to="/register"
+      >Register</router-link
+    >
+    <router-link v-else class="nav-links" to="/user">My Profile</router-link>
   </nav>
-
 </template>
 <script>
 export default {
   name: "Navbar",
+  computed: {
+    Users() {
+      return this.$store.state.Users;
+    },
+  },
 };
 </script>
 <style>
@@ -33,9 +40,10 @@ export default {
 .nav_bar {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
   align-items: center;
   z-index: 50;
+  background-color: rgba(237, 20, 61, 0.5);
+    padding-top: 60px;
 }
 .nav_bar_links {
   display: flex;

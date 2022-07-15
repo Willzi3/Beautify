@@ -1,14 +1,15 @@
 <template>
- <router-link :to="{name:'Nail', params: {id:Nail.id}}">
-  <h2>
-      {{ Nail.role }}
-    </h2>
- </router-link>
+    <div class="card">
+     <i class="fa-solid fa-user"></i>
+      <p class="user_fullname">{{ nail.Fullname }}</p>
+      <p class="user_email">{{ nail.email }}</p>
+      <p class="user_role">{{ nail.role}}</p>
+       <p class="contact">{{ nail.call}}</p>
+    </div>
 </template>
 <script>
 export default {
-  props: ["Nail"],
-
+  props: ["nail"],
 };
 </script>
 <style>
