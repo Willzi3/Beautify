@@ -85,7 +85,7 @@ export default {
 <style>
 :root {
   --secondary-text-colour: #0b1108;
-  --primary-text-colour: #c6c0b7;
+  --primary-text-colour: white;
   --hover-highlight: crimson;
   --main-font: "Source Sans Pro", sans-serif;
 }
@@ -104,10 +104,12 @@ body {
   opacity: 0.5;
   margin-top: 0;
   padding-top: 4rem;
+  /* display: none; */
 }
 section {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -126,6 +128,7 @@ section:not(#pics) {
   background: rgba(237, 20, 61, 0.5);;
   position: relative;
   z-index: 10;
+  align-self: center;
 }
 .home {
   display: grid;
@@ -174,8 +177,7 @@ body {
   backdrop-filter: blur(12.6px);
   -webkit-backdrop-filter: blur(12.6px);
   border: 1px solid rgba(255, 255, 255, 0.23);
-
-  align-self: baseline;
+  align-self: center;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -187,6 +189,8 @@ input {
   background: black;
   opacity: 0.5;
   padding: 0.5rem;
+  color: var(--primary-text-colour);
+  font-family: var(--main-font);
 }
 button {
   border: none;

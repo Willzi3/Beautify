@@ -9,6 +9,15 @@
       <!-- <router-link class="nav-links" to="/admin">Admin</router-link> -->
       <router-link class="nav-links" to="/login">Login</router-link>
     </div>
+    <router-link v-if="!User">Register</router-link>
+    <router-link class="nav-links" to="/products" id="my_profile" v-else
+      >My Profile
+      <ul class="profile_options">
+        <li class="profile_links">My Profile</li>
+        <li class="profile_links">Settings</li>
+        <li class="profile_links">Logout</li>
+      </ul>
+    </router-link>
     <router-link class="nav-links" to="/register">Register</router-link>
   </nav>
   <router-view />
@@ -16,7 +25,16 @@
 <script>
 export default {
   name: "Navbar",
-};
+  // components:{
+
+  // }
+  // computed: {
+  //    user(){
+  //   this$store.state.User
+  //   }
+  // } 
+  };
+
 </script>
 <style>
 :root {
@@ -45,10 +63,33 @@ export default {
   font-family: "Source Sans Pro", sans-serif;
 }
 nav a.router-link-exact-active {
-  color: var(--hover-highlight) !important;
+  color: var(--secondary-text-colour) !important;
 }
 .nav-links:hover {
-  color: var(--hover-highlight) !important;
+  color: var(--secondary-text-colour) !important;
+}
+li {
+  list-style: none;
+}
+#my_profile {
+  position: relative;
+}
+#my_profile:hover .profile_options {
+  display: block;
+  background: var(--hover-highlight);
+  border-radius: 10px;
+  padding: 20px;
+  color: var(--primary-text-colour);
+  width: 8rem;
+}
+.profile_options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.profile_links:hover {
+  color: var(--secondary-text-colour);
 }
 </style>
 <!-- <script>
